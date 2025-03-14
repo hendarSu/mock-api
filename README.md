@@ -40,7 +40,7 @@ The server will run on `http://localhost:3000`.
 
 To add a new mock API endpoint, follow these steps:
 
-1. Open the `index.js` file located at `/Users/abushanum/Documents/project/natada/mock-server/index.js`.
+1. Open the `index.js` file located at `/mock-server/index.js`.
 2. Add a new route to handle the desired endpoint. For example, to add a new GET endpoint:
     ```javascript
     app.get('/path/to/your/api', (req, res) => {
